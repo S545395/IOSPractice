@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F4D9D3727CEBD88006B6629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9D3627CEBD88006B6629 /* AppDelegate.swift */; };
+		4F4D9D3927CEBD88006B6629 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9D3827CEBD88006B6629 /* SceneDelegate.swift */; };
+		4F4D9D3B27CEBD88006B6629 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9D3A27CEBD88006B6629 /* ViewController.swift */; };
+		4F4D9D3E27CEBD88006B6629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D9D3C27CEBD88006B6629 /* Main.storyboard */; };
+		4F4D9D4027CEBD8A006B6629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D9D3F27CEBD8A006B6629 /* Assets.xcassets */; };
+		4F4D9D4327CEBD8A006B6629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D9D4127CEBD8A006B6629 /* LaunchScreen.storyboard */; };
+		4F4D9D4E27CEBD8A006B6629 /* Dommety_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9D4D27CEBD8A006B6629 /* Dommety_SearchAppTests.swift */; };
+		4F4D9D5827CEBD8A006B6629 /* Dommety_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9D5727CEBD8A006B6629 /* Dommety_SearchAppUITests.swift */; };
+		4F4D9D5A27CEBD8A006B6629 /* Dommety_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9D5927CEBD8A006B6629 /* Dommety_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F4D9D4A27CEBD8A006B6629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4D9D2B27CEBD88006B6629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4D9D3227CEBD88006B6629;
+			remoteInfo = Dommety_SearchApp;
+		};
+		4F4D9D5427CEBD8A006B6629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4D9D2B27CEBD88006B6629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4D9D3227CEBD88006B6629;
+			remoteInfo = Dommety_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F4D9D3327CEBD88006B6629 /* Dommety_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dommety_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4D9D3627CEBD88006B6629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F4D9D3827CEBD88006B6629 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F4D9D3A27CEBD88006B6629 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F4D9D3D27CEBD88006B6629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F4D9D3F27CEBD8A006B6629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F4D9D4227CEBD8A006B6629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F4D9D4427CEBD8A006B6629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4D9D4927CEBD8A006B6629 /* Dommety_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dommety_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4D9D4D27CEBD8A006B6629 /* Dommety_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dommety_SearchAppTests.swift; sourceTree = "<group>"; };
+		4F4D9D5327CEBD8A006B6629 /* Dommety_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dommety_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4D9D5727CEBD8A006B6629 /* Dommety_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dommety_SearchAppUITests.swift; sourceTree = "<group>"; };
+		4F4D9D5927CEBD8A006B6629 /* Dommety_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dommety_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F4D9D3027CEBD88006B6629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D9D4627CEBD8A006B6629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D9D5027CEBD8A006B6629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4D9D2A27CEBD88006B6629 = {
+			isa = PBXGroup;
+			children = (
+				4F4D9D3527CEBD88006B6629 /* Dommety_SearchApp */,
+				4F4D9D4C27CEBD8A006B6629 /* Dommety_SearchAppTests */,
+				4F4D9D5627CEBD8A006B6629 /* Dommety_SearchAppUITests */,
+				4F4D9D3427CEBD88006B6629 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F4D9D3427CEBD88006B6629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D9D3327CEBD88006B6629 /* Dommety_SearchApp.app */,
+				4F4D9D4927CEBD8A006B6629 /* Dommety_SearchAppTests.xctest */,
+				4F4D9D5327CEBD8A006B6629 /* Dommety_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F4D9D3527CEBD88006B6629 /* Dommety_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D9D3627CEBD88006B6629 /* AppDelegate.swift */,
+				4F4D9D3827CEBD88006B6629 /* SceneDelegate.swift */,
+				4F4D9D3A27CEBD88006B6629 /* ViewController.swift */,
+				4F4D9D3C27CEBD88006B6629 /* Main.storyboard */,
+				4F4D9D3F27CEBD8A006B6629 /* Assets.xcassets */,
+				4F4D9D4127CEBD8A006B6629 /* LaunchScreen.storyboard */,
+				4F4D9D4427CEBD8A006B6629 /* Info.plist */,
+			);
+			path = Dommety_SearchApp;
+			sourceTree = "<group>";
+		};
+		4F4D9D4C27CEBD8A006B6629 /* Dommety_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D9D4D27CEBD8A006B6629 /* Dommety_SearchAppTests.swift */,
+			);
+			path = Dommety_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		4F4D9D5627CEBD8A006B6629 /* Dommety_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D9D5727CEBD8A006B6629 /* Dommety_SearchAppUITests.swift */,
+				4F4D9D5927CEBD8A006B6629 /* Dommety_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Dommety_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F4D9D3227CEBD88006B6629 /* Dommety_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4D9D5D27CEBD8A006B6629 /* Build configuration list for PBXNativeTarget "Dommety_SearchApp" */;
+			buildPhases = (
+				4F4D9D2F27CEBD88006B6629 /* Sources */,
+				4F4D9D3027CEBD88006B6629 /* Frameworks */,
+				4F4D9D3127CEBD88006B6629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dommety_SearchApp;
+			productName = Dommety_SearchApp;
+			productReference = 4F4D9D3327CEBD88006B6629 /* Dommety_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F4D9D4827CEBD8A006B6629 /* Dommety_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4D9D6027CEBD8A006B6629 /* Build configuration list for PBXNativeTarget "Dommety_SearchAppTests" */;
+			buildPhases = (
+				4F4D9D4527CEBD8A006B6629 /* Sources */,
+				4F4D9D4627CEBD8A006B6629 /* Frameworks */,
+				4F4D9D4727CEBD8A006B6629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4D9D4B27CEBD8A006B6629 /* PBXTargetDependency */,
+			);
+			name = Dommety_SearchAppTests;
+			productName = Dommety_SearchAppTests;
+			productReference = 4F4D9D4927CEBD8A006B6629 /* Dommety_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F4D9D5227CEBD8A006B6629 /* Dommety_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4D9D6327CEBD8A006B6629 /* Build configuration list for PBXNativeTarget "Dommety_SearchAppUITests" */;
+			buildPhases = (
+				4F4D9D4F27CEBD8A006B6629 /* Sources */,
+				4F4D9D5027CEBD8A006B6629 /* Frameworks */,
+				4F4D9D5127CEBD8A006B6629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4D9D5527CEBD8A006B6629 /* PBXTargetDependency */,
+			);
+			name = Dommety_SearchAppUITests;
+			productName = Dommety_SearchAppUITests;
+			productReference = 4F4D9D5327CEBD8A006B6629 /* Dommety_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F4D9D2B27CEBD88006B6629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4F4D9D3227CEBD88006B6629 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4F4D9D4827CEBD8A006B6629 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4F4D9D3227CEBD88006B6629;
+					};
+					4F4D9D5227CEBD8A006B6629 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4F4D9D3227CEBD88006B6629;
+					};
+				};
+			};
+			buildConfigurationList = 4F4D9D2E27CEBD88006B6629 /* Build configuration list for PBXProject "Dommety_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F4D9D2A27CEBD88006B6629;
+			productRefGroup = 4F4D9D3427CEBD88006B6629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4D9D3227CEBD88006B6629 /* Dommety_SearchApp */,
+				4F4D9D4827CEBD8A006B6629 /* Dommety_SearchAppTests */,
+				4F4D9D5227CEBD8A006B6629 /* Dommety_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F4D9D3127CEBD88006B6629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4D9D4327CEBD8A006B6629 /* LaunchScreen.storyboard in Resources */,
+				4F4D9D4027CEBD8A006B6629 /* Assets.xcassets in Resources */,
+				4F4D9D3E27CEBD88006B6629 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D9D4727CEBD8A006B6629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D9D5127CEBD8A006B6629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F4D9D2F27CEBD88006B6629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4D9D3B27CEBD88006B6629 /* ViewController.swift in Sources */,
+				4F4D9D3727CEBD88006B6629 /* AppDelegate.swift in Sources */,
+				4F4D9D3927CEBD88006B6629 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D9D4527CEBD8A006B6629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4D9D4E27CEBD8A006B6629 /* Dommety_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D9D4F27CEBD8A006B6629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4D9D5A27CEBD8A006B6629 /* Dommety_SearchAppUITestsLaunchTests.swift in Sources */,
+				4F4D9D5827CEBD8A006B6629 /* Dommety_SearchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F4D9D4B27CEBD8A006B6629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4D9D3227CEBD88006B6629 /* Dommety_SearchApp */;
+			targetProxy = 4F4D9D4A27CEBD8A006B6629 /* PBXContainerItemProxy */;
+		};
+		4F4D9D5527CEBD8A006B6629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4D9D3227CEBD88006B6629 /* Dommety_SearchApp */;
+			targetProxy = 4F4D9D5427CEBD8A006B6629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F4D9D3C27CEBD88006B6629 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4D9D3D27CEBD88006B6629 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F4D9D4127CEBD8A006B6629 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4D9D4227CEBD8A006B6629 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F4D9D5B27CEBD8A006B6629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F4D9D5C27CEBD8A006B6629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4D9D5E27CEBD8A006B6629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dommety_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dommety_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Dommety-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F4D9D5F27CEBD8A006B6629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dommety_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dommety_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Dommety-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F4D9D6127CEBD8A006B6629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Dommety-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dommety_SearchApp.app/Dommety_SearchApp";
+			};
+			name = Debug;
+		};
+		4F4D9D6227CEBD8A006B6629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Dommety-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dommety_SearchApp.app/Dommety_SearchApp";
+			};
+			name = Release;
+		};
+		4F4D9D6427CEBD8A006B6629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Dommety-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dommety_SearchApp;
+			};
+			name = Debug;
+		};
+		4F4D9D6527CEBD8A006B6629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Dommety-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dommety_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F4D9D2E27CEBD88006B6629 /* Build configuration list for PBXProject "Dommety_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4D9D5B27CEBD8A006B6629 /* Debug */,
+				4F4D9D5C27CEBD8A006B6629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4D9D5D27CEBD8A006B6629 /* Build configuration list for PBXNativeTarget "Dommety_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4D9D5E27CEBD8A006B6629 /* Debug */,
+				4F4D9D5F27CEBD8A006B6629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4D9D6027CEBD8A006B6629 /* Build configuration list for PBXNativeTarget "Dommety_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4D9D6127CEBD8A006B6629 /* Debug */,
+				4F4D9D6227CEBD8A006B6629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4D9D6327CEBD8A006B6629 /* Build configuration list for PBXNativeTarget "Dommety_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4D9D6427CEBD8A006B6629 /* Debug */,
+				4F4D9D6527CEBD8A006B6629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F4D9D2B27CEBD88006B6629 /* Project object */;
+}
