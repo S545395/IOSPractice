@@ -14,6 +14,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet weak var tableViewOutlet: UITableView!
     
+    var contacts = NSDictionary()
+    
     var contactNames:[String] = []
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +40,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func fetchData(){
+       
+        /*
         //create a reference
         let databaseRef = Database.database().reference()
         databaseRef.observeSingleEvent(of: .value){
@@ -47,6 +51,45 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             //relaod the data
             self.tableViewOutlet.reloadData()
+          */
+            
+            //Create the reference
+            let databaseRef = Database.database().reference()
+            
+            //Get the data using the method observeSingleEvent
+            databaseRef.observeSingleEvent(of: .value) { snapshot in
+                self.contacts = snapshot.value as! NSDictionary
+                self.contactNames = self.contacts.allKeys as! [String]
+                self.tableViewOutlet.reloadData();
+                
+                print(self.contacts)
+                
+            }
+        }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let transistion = segue.identifier
+        if transistion == "contactDetailsSegue"{
+            let destination = segue.destination as! ContactsViewController
+            let contactClicked = contactNames[(tableViewOutlet.indexPathForSelectedRow?.row)!]
+            for (key, value) in self.contacts{
+                if key as! String == contactClicked{
+                    for (key1, value1) in value as! [String:Any]{
+                        if key1 == "email"{
+                            destination.email = value1 as! String
+                        }
+                        else if key1 == "PhoneNum"{
+                            destination.phoneNum = value1 as! Int
+                        }
+                    }
+                }
+                print(key)//String
+                print(value)//Dictionary
+            }
+            
+           
+            
+            
         }
     }
 

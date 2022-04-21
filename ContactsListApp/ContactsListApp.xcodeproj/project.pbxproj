@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F14E1912811E746003E4A65 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F14E1902811E746003E4A65 /* ContactsViewController.swift */; };
 		4F97BE5D280F41A400DFD57D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F97BE5C280F41A400DFD57D /* AppDelegate.swift */; };
 		4F97BE5F280F41A400DFD57D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F97BE5E280F41A400DFD57D /* SceneDelegate.swift */; };
 		4F97BE61280F41A400DFD57D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F97BE60280F41A400DFD57D /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F14E1902811E746003E4A65 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		4F97BE59280F41A400DFD57D /* ContactsListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F97BE5C280F41A400DFD57D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F97BE5E280F41A400DFD57D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				4F97BE67280F41A500DFD57D /* LaunchScreen.storyboard */,
 				4F97BE8C280F436800DFD57D /* GoogleService-Info.plist */,
 				4F97BE6A280F41A500DFD57D /* Info.plist */,
+				4F14E1902811E746003E4A65 /* ContactsViewController.swift */,
 			);
 			path = ContactsListApp;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F97BE61280F41A400DFD57D /* ViewController.swift in Sources */,
+				4F14E1912811E746003E4A65 /* ContactsViewController.swift in Sources */,
 				4F97BE5D280F41A400DFD57D /* AppDelegate.swift in Sources */,
 				4F97BE5F280F41A400DFD57D /* SceneDelegate.swift in Sources */,
 			);
